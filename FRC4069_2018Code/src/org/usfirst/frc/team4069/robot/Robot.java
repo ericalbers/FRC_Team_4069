@@ -41,7 +41,7 @@ import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
  * 
  */
 public class Robot extends SampleRobot 
-{
+{ 
 	WPI_TalonSRX leftDriveTalon11Follower = new WPI_TalonSRX(IOMapping.LEFT_DRIVE_CAN_BUS_11_FOLLOWER);
 	WPI_TalonSRX leftDriveTalon12Driver = new WPI_TalonSRX(IOMapping.LEFT_DRIVE_CAN_BUS_12_DRIVER);
 	WPI_TalonSRX leftDriveTalon13Follower = new WPI_TalonSRX(IOMapping.LEFT_DRIVE_CAN_BUS_13_FOLLOWER);
